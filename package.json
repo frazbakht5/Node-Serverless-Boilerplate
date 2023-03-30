@@ -1,5 +1,5 @@
 {
-  "name": "serverlessy",
+  "name": "fraz-serverless-ts-project-boilerplate",
   "version": "1.0.0",
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
@@ -8,7 +8,7 @@
     "lint": "eslint . --ext js,ts --cache --fix",
     "prettier": "prettier --list-different './**/*.{js,ts}'",
     "typecheck": "tsc --noEmit",
-    "deploy": "serverless deploy --aws-profile olltv",
+    "deploy": "serverless deploy --aws-profile profileName",
     "clean": "remove --stage dev --region us-east-1 --aws-profile olltv",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
